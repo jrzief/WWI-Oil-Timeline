@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline-SCSS</title>
+  <link rel="stylesheet" href="styles.scss">
+</head>
+  <body>
+    <div>
+      <h1>It works!!!</h1>
+    </div> 
+
+    <nav>
+      <!--Shows our position on the timeline-->
+      <div class="marker"></div>
+      
+      <!--Draggable element-->
+      <div class="nav__track" data-draggable>
+        <ul class="nav__list">
+          <li>
+            <a href="#section_1" class="nav__link" data-link><span>Eve of War</span></a>
+          </li>
+          <li>
+            <a href="#section_2" class="nav__link" data-link><span>Taxi-cab Armada</span></a>
+          </li>
+          <li>
+            <a href="#section_3" class="nav__link" data-link><span>Battle of Jutland</span></a>
+          </li>
+          <li>
+            <a href="#section_4" class="nav__link" data-link><span>Battle of Amiens</span></a>
+          </li>
+          <li>
+            <a href="#section_5" class="nav__link" data-link><span>Oil Production - Post War</span></a>
+          </li>
+          <li>
+            <a href="#section_6" class="nav__link" data-link><span>Oil and Transportation</span></a>
+          </li>
+          <li>
+            <a href="#section_7" class="nav__link" data-link><span>Oil and Agriculture</span></a>
+          </li>
+          <li>
+            <a href="#section_8" class="nav__link" data-link><span>Oil and the Modern World</span></a>
+          </li>
+         <!--  <li>
+            <a href="#section_9" class="nav__link" data-link><span>2016</span></a>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+    
+    <main>
+      <section id="section_1" style="--i: 0">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>Eve of War</span>
+            <span>The world on the eve of WWI relied on horse, buggy, and train for transportation, thought wars to be fought by cavalry and men, and heated  homes with wood and coal. However oil evolved to be an essential component of military use, and it quickly extended to civilian contexts when the fighting stopped. The following three events underscore oil’s role in the strategy and overall outcome of the war.
+            </span>
+          </h2>
+          <div class="section__image">
+            <!-- <img src="https://assets.codepen.io/85648/radiohead_pablo-honey.jpg" width="1200" height="1200" /> -->
+            <img src="./images/Oil-can.jpg" width="1200" height="1200" />
+          </div>
+        </div>
+      </section>
+      <section id="section_2" style="--i: 1">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>Taxi-cab Armada - September 1914</span>
+            <span>Over the course of two days, French General Joseph Gallieni organized the transportation of reserve troops to the front via taxicab. Gallieni called his improvisational mobilization force the Taxicab Armada, showing the world for the first time the strategic value of oil-powered motorcars. 
+            </span>
+          </h2>
+          <div class="section__image">
+            <!-- <img src="https://assets.codepen.io/85648/radiohead_the-bends.webp" width="1200" height="1200" /> -->
+            <img src="./images/TaxiCab-Armada.jpg" width="1200" height="1200" />
+          </div>
+        </div>
+      </section>
+      <section id="section_3" style="--i: 2">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>Battle of Jutland - June 1916</span>
+            <span>The primarily oil-burning British Fleet fought the primarily coal-burning German fleet for control of the North Sea. The British were able to take control of the North-Sea, blockading German supply routes. This led Germany to scramble for other oil sources, forcing them to divert resources away from their two-front war to Romanian and Armenian Oil fields.</span>
+          </h2>
+          <div class="section__image">
+            <!-- <img src="https://assets.codepen.io/85648/radiohead_ok-computer.webp" width="1200" height="1200" /> -->
+            <img src="./images/Battle-of-Jutland.jpg" width="1200" height="1200" />
+          </div>
+        </div>
+      </section>
+      <section id="section_4" style="--i: 3">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>Battle of Amiens - August 1918</span>
+            <span>The allies' use of 600 tanks in the battle of Amiens led to a swift victory against German static defenses. Mobile armor undermined the “primacy of defense” which had previously dictated the terms of battle on the western front. In less than a day, allied troops pushed the Germans back 12 km, previously unthinkable among battles fought over meters.</span>
+          </h2>
+          <div class="section__image">
+            <!-- <img src="https://assets.codepen.io/85648/radiohead_kid-a.webp" width="1200" height="1200" /> -->
+            <img src="./images/Battle-of-Amiens.jpg" width="1200" height="1200" />
+          </div>
+        </div>
+      </section>
+      <section id="section_5" style="--i: 4">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>Oil Production - Post War</span>
+            <span>Oil’s emergence as a strategic commodity on the battlefield precipitated its production for domestic use in Iran, where production rose from 1,600 to 18,000 barrels a day from 1912-1916. In America national oil production increased 38% between 1914 - 1918.</span>
+          </h2>
+          <div class="section__image">
+            <!-- <img src="https://assets.codepen.io/85648/radiohead_amnesiac.webp" width="1200" height="1200" /> -->
+            <img src="./images/US-oil-production.png" width="1200" height="1200" />
+          </div>
+        </div>
+      </section>
+      <section id="section_6" style="--i: 5">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>Oil and Transportation</span>
+            <span>Oil’s military origins shaped postwar changes in transportation. Realizing the strategic advantage of motorcars in France, General Dwight Eisenhower would later convince the military to build an interstate highway system. Eisenhower stated that “the old convoy” in France “had started me thinking about good, two lane highways”.</span>
+          </h2>
+          <div class="section__image" style="--i: 6">
+            <!-- <img src="https://assets.codepen.io/85648/radiohead_hail-to-the-thief.webp" width="1200" height="1200" /> -->
+            <img src="./images/Eisenhower-1919-with-Tank-Corps.jpg" width="1400" height="1400" />
+          </div>
+        </div>
+      </section>
+      <section id="section_7" style="--i: 7">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>Oil and Agriculture</span>
+            <span>German scientist Fritz Haber discovered a way of creating synthetic fertilizers from factories previously converting oil to tnt. Where previously soil fertility was nourished by a rotating set of crops, now farmers could focus on growing one crop all year round, with soil fertility held constant by artificial fertilizers. This led to greater efficiency and larger farming yields.</span>
+          </h2>
+          <div class="section__image">
+            <!-- <img src="https://assets.codepen.io/85648/radiohead_in-rainbows.webp" width="1200" height="1200" /> -->
+            <img src="./images/fritz-haber.jpg" width="1400" height="1400" />
+          </div>
+        </div>
+      </section>
+      <section id="section_8" style="--i: 8">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>Oil and the Modern World</span>
+            <span>Proving itself paramount for military and economic power during WWI, oil has transformed the world beyond transportation and agricultural development. The resource dubbed “black gold” has been the source of geopolitical conflict for the last century. Countries with the highest GDPs by and large have the most stable access to oil. And the burning of oil, natural gas, and fossil fuels have above all contributed to the current climate crisis.</span>
+          </h2>
+          <div class="section__image">
+            <!-- <img src="https://assets.codepen.io/85648/radiohead_king-of-linbs.webp" width="1400" height="1400" /> -->
+            <img src="./images/oil-rig.jpg" width="1400" height="1400" />
+          </div>
+        </div>
+      </section>
+     <!--  <section id="section_9" style="--i: 9">
+        <div class="container">
+          <h2 class="section__heading">
+            <span>2016</span>
+            <span>A Moon Shaped Pool</span>
+          </h2>
+          <div class="section__image">
+            <img src="./images/roger_mar2021.jpg" width="1200" height="1200" />
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
